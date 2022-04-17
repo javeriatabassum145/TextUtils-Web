@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+body{
+  font-family: cursive;
+}
+
+.bg-pink, .navbar-pink{
+  background-color: #F1DDBF;
+}
+
+.btn-pink{
+ background-color: #9f8890;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,6 +23,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.preview{
+  height: 100%;
 }
 
 .App-header {
