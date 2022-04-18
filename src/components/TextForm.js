@@ -34,7 +34,7 @@ const clearText = () => {
         <button className="btn btn-pink m-3" onClick={lowerCase}>Convert to lowercase</button>
         <button className="btn btn-pink m-3" onClick={clearText}>Clear Text</button>
         <p className="">Word Count : {text.split(' ').filter(function(n){return (n !== '')}).length} & Characters : {text.length}</p>
-        <p>Time in seconds : {(0.008 * text.split(' ').length).toFixed(3)}</p>
+        <p>Time in minutes : {(0.008 * text.split(' ').filter(function(n){return (n !== '').length).toFixed(3)}</p>
         </div>
         <div className="form-control preview">{text}</div>
       </div>
